@@ -9,6 +9,8 @@ int fib(int n)
 int main ()
 {
   int n;
+  printf("ENTER THE NUMBER YOU WANT IN FIBONACII SERIES);
+  scanf("%d",&n);
   printf("%d", fib(n));
   return 0;
 }
